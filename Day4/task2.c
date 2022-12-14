@@ -8,17 +8,17 @@ int main(){
    int max = -11;
    int min = 11;
    
-   for (int i = 0; i < 100; i++){
-		numbers[i] = rand() % 21 - 10;
-		printf("%d ", numbers[i]);
+   for (int i = 0; i < 100; i++) {
+	numbers[i] = rand() % 21 - 10;
+	printf("%d ", numbers[i]);
 		
-		if (min > numbers[i]) {
-			min = numbers[i];
-		}
+	if (min > numbers[i]) {
+		min = numbers[i];
+	}
 		
-		if (max < numbers[i]) {
-			max = numbers[i];
-		}
+	if (max < numbers[i]) {
+		max = numbers[i];
+	}
    }
    
    printf("\nMin = %d ", min);  
