@@ -7,15 +7,15 @@ int main(){
    int num = 0;
    
    for (int i = 0; i < 10; i++) {
-	    printf("\nEnter number %d : ", i+1); 
-		scanf("%f", &numbers[i]);
+	printf("\nEnter number %d : ", i+1); 
+	scanf("%f", &numbers[i]);
    }
 	   
    for (int i = 0; i < 10; i++){   		
-		if ((numbers[i] >= 5) && (numbers[i] <= 10)) {
-			num++;
-			sum += numbers[i];
-		}	
+	if ((numbers[i] >= 5) && (numbers[i] <= 10)) {
+		num++;
+		sum += numbers[i];
+	}	
    }
    
    printf("\n\nSum = %f ", sum);  
